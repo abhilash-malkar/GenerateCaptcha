@@ -1,1 +1,1 @@
-"# GenerateCaptcha" 
+# GenerateCaptcha 
