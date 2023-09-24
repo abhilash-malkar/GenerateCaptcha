@@ -49,13 +49,13 @@ You can customize various aspects of the CAPTCHA generation, such as:
 2.  When a user submits the form, validate their input by comparing it with the code stored in `$_SESSION['captcha']`. 
 
 For example:  
-    ```shell
+```shell
     if ($_POST['captcha'] == $_SESSION['captcha']) {
         // CAPTCHA code is correct, process the form.
     } else {
         // CAPTCHA code is incorrect, show an error message.
     }
-    ```
+```
     
 
 ## License
